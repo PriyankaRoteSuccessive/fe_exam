@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-serif;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrapper #alert {
+  height: 56px;
+  background: #FFF7F3;
+}
+.wrapper #alert .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+}
+.wrapper #alert .container img.alert_erro {
+  width: 24px;
+  height: 24px;
+  margin: 16px 16px 16px 130px;
+}
+.wrapper #alert .container p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212121;
+  margin: 18px 0 18px;
+}
+.wrapper header {
+  background: #5C524D;
+}
+.wrapper header .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+}
+.wrapper header .container .left_side {
+  display: flex;
+  margin-right: 504px;
+}
+.wrapper header .container .left_side img.logo {
+  height: 46px;
+  width: 48px;
+  margin: 27px 0;
+}
+.wrapper header .container .left_side h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin: 30px 16px;
+}
+.wrapper header .container .left_side h1 span {
+  color: #FC732F;
+}
+.wrapper header .container .right_side ul {
+  display: flex;
+}
+.wrapper header .container .right_side ul li {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  list-style: none;
+  margin: 40px 20px;
+}
+.wrapper header .container .right_side ul li a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+.wrapper header .container .right_side ul li.active a {
+  color: #FFFFFF;
+  padding-bottom: 26px;
+  border-bottom: 10px solid #86EAAE;
+}
+.wrapper header .container .right_side ul li:hover {
+  color: #FFFFFF;
+}
+.wrapper section .containar {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid #D5D5D5;
+}
+.wrapper section .containar .left_img img {
+  width: 372px;
+  height: 340px;
+  margin: 64px 133px 64px 0;
+}
+.wrapper section .containar .right_ac h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 54px;
+  margin: 64px 0 32px;
+}
+.wrapper section .containar .right_ac form .name {
+  width: 675px;
+  height: 89px;
+  background: #FAFAFA;
+  border: 1px solid #D5D5D5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px;
+}
+.wrapper section .containar .right_ac form .name strong {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #757575;
+  margin-right: 617px;
+}
+.wrapper section .containar .right_ac form .name input#name {
+  background: #FAFAFA;
+  border: none;
+  margin: 12px 16px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  color: #212121;
+}
+.wrapper section .containar .right_ac form .mob_EM {
+  display: flex;
+  margin: 0 0 0 -34px;
+}
+.wrapper section .containar .right_ac form .mob_EM .mobile {
+  width: 271px;
+  height: 89px;
+  background: #FAFAFA;
+  border: 1px solid #D5D5D5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 32px;
+}
+.wrapper section .containar .right_ac form .mob_EM .mobile strong {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #757575;
+  margin-right: 617px;
+}
+.wrapper section .containar .right_ac form .mob_EM .mobile input#tel {
+  width: 225px;
+  background: #FAFAFA;
+  border: none;
+  margin: 12px 16px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  color: #212121;
+}
+.wrapper section .containar .right_ac form .mob_EM .email {
+  width: 372px;
+  height: 89px;
+  background: #FAFAFA;
+  border: 1px solid #D5D5D5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 32px 0;
+}
+.wrapper section .containar .right_ac form .mob_EM .email strong {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #757575;
+  margin-right: 617px;
+}
+.wrapper section .containar .right_ac form .mob_EM .email input#email {
+  background: #FAFAFA;
+  border: none;
+  margin: 12px 16px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  color: #212121;
+}
+.wrapper section .container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.wrapper section .container h2 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  color: #212121;
+  margin: 64px 0 32px;
+}
+.wrapper section .container .select_contain input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.wrapper section .container .select_contain .dot {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #dbd7d7;
+  border-radius: 50%;
+  margin: 0 0 -24px;
+}
+.wrapper section .container .select_contain .dot i.fa.fa-check-circle {
+  font-size: 30px;
+  margin: -2px;
+  color: #86EAAE;
+}
+.wrapper section .container .select_contain .dot:hover {
+  color: #86EAAE;
+}
+.wrapper section .container .select_contain .box_one {
+  width: 1124px;
+  height: 112px;
+  border: 1px solid #D5D5D5;
+  background: #FAFAFA;
+  margin-left: 64px;
+}
+.wrapper section .container .select_contain .box_one.big {
+  height: 148px;
+}
+.wrapper section .container .select_contain .box_one h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  color: #212121;
+  margin: 10px 32px 0;
+}
+.wrapper section .container .select_contain .box_one p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 8px 32px 32px;
+}
+.wrapper section .container .butt_main button {
+  margin: 32px 30px 176px 0;
+}
+.wrapper section .container .butt_main button.btn_1 {
+  width: 220px;
+  height: 50px;
+  background: #FC732F;
+  border: 1px solid #FC732F;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.wrapper section .container .butt_main button.btn_1 i.fa.fa-exchange {
+  font-size: 16px;
+  color: #ffffff;
+  padding-right: 10px;
+}
+.wrapper section .container .butt_main button.btn_1:hover {
+  background: #ffffff;
+  border: 2px solid #FC732F;
+  color: #FC732F;
+}
+.wrapper section .container .butt_main button.btn_1:hover i.fa.fa-exchange {
+  color: #FC732F;
+}
+.wrapper section .container .butt_main button.btn_2 {
+  width: 105px;
+  height: 50px;
+  background: #ffffff;
+  color: #FC732F;
+  border: 2px solid #FC732F;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.wrapper section .container .butt_main button.btn_2 i.fa.fa-times {
+  font-size: 16px;
+  color: #FC732F;
+  padding-right: 10px;
+}
+.wrapper section .container .butt_main button.btn_2:hover {
+  background: #FC732F;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.wrapper section .container .butt_main button.btn_2:hover i.fa.fa-times {
+  color: #Ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
